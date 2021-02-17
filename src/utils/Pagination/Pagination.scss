@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-decoration: none;
+
+  .item {
+    margin: 0.5rem;
+    padding: 0.25rem;
+    font-size: 1.5rem;
+    background-color: #079992;
+    width: 2rem;
+    cursor: pointer;
+
+    a {
+      color: #fff;
+
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.control-panel {
+  display: flex;
+  flex-wrap: wrap;
+
+  #licencePlate {
+    border: none;
+    padding: 0.75rem 1rem;
+    background-color: #dcdde1;
+    width: 60%;
+  }
+
+  #btnAddCar {
+    background: #079992;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}

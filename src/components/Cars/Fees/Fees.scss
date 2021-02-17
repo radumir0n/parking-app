@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .fee-box {
+    display: flex;
+    width: 15rem;
+    height: 15rem;
+    background-color: #dcdde1;
+    margin: 1rem;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      list-style-type: none;
+      text-decoration: none;
+      padding-left: 1rem;
+      text-align: left;
+
+      span {
+        font-weight: bold;
+      }
+
+      li {
+        padding: 0.05rem;
+      }
+    }
+  }
+}
