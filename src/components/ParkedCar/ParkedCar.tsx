@@ -12,7 +12,7 @@ interface IParkedCar {
 
 const ParkedCar: React.FC<IParkedCar> = ({ car, cars, setCars, exitCar }) => {
   useEffect(() => {
-    let interval: number | any;
+    let interval: number | string | any;
     if (car.timerOn) {
       interval = setInterval(() => {
         if (car.timerOn)
